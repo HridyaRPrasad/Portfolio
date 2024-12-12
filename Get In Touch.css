@@ -1,0 +1,73 @@
+
+    body {margin: 0;
+        padding: 0;
+        font-family: 'Human Sans', sans-serif;
+        background-color: #021001;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        color: #F7DC8B;}
+
+    .contact-container {display: flex;
+        width: 90%; /* Increased width */
+        max-width: 1500px; /* Increased max width for bigger box */
+        background-color: #760E05; /* Red background color */
+        border-radius: 80px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        overflow: hidden;
+        padding: 5% 10%; /* Increased padding */
+        margin: 20px; /* Margin around the container */}
+
+    .contact-card {background-color: #760E05; /* Red background color */
+        color: #F7DC8B;
+        padding: 60px; /* Increased padding for larger content */
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center; }
+
+    .contact-card h2 { margin: 0 0 30px; /* Increased margin */
+        font-size: 8rem; /* Increased font size */
+        font-family: 'Strippy', sans-serif;}
+
+    .contact-card p {font-size: 2rem; /* Increased font size */
+        margin: 15px 0; /* Increased margin between paragraphs */
+        line-height: 2;}
+
+    .contact-form {padding: 60px; /* Increased padding for larger content */
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center; }
+
+    .contact-form h2 { margin: 0 0 30px; /* Increased margin */
+        font-size: 6rem; /* Increased font size */
+        font-family: 'Strippy', sans-serif;
+        color: #F7DC8B;}
+
+    .contact-form p { margin-bottom: 30px; /* Increased margin */
+        color: #F7DC8B;
+        font-size: 2rem; /* Increased font size */}
+
+    .contact-form input,
+    .contact-form textarea { width: 100%;
+        padding: 20px; /* Increased padding */
+        margin-bottom: 30px; /* Increased margin between inputs */
+        border: 1px solid #F7DC8B;
+        border-radius: 10px; /* Increased border radius */
+        background-color: #021001;
+        color: #F7DC8B;
+        font-size: 1.5rem; /* Increased font size */ }
+
+    .contact-form button { background-color: #F7DC8B;
+        color: #760E05;
+        padding: 20px 40px; /* Increased padding */
+        font-size: 2rem; /* Increased font size */
+        border: none;
+        border-radius: 10px; /* Increased border radius */
+        cursor: pointer;
+        transition: transform 0.3s ease;}
+
+    .contact-form button:hover { transform: scale(1.05);}
+
