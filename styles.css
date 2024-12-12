@@ -56,11 +56,11 @@
     }}
 
 /* font */
-@font-face { font-family: 'Strippy';
-    src: url('./fonts/Strippy.ttf') format('truetype');}
+@font-face { font-family: 'strippy';
+    src: url('./fonts/strippy.ttf') format('truetype');}
 
-@font-face {font-family: 'Human Sans';
-    src: url('./path-to-font/HumanSans-Regular.otf') format('opentype');
+@font-face {font-family: 'human Sans';
+    src: url('./path-to-font/humanSans-Regular.otf') format('opentype');
     font-weight: normal;
     font-style: normal;}
 
